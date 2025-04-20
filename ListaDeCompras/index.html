@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <img
+        src="./img/toDo.png"
+        alt="imagem de lista de afazeres"
+        width="120px"
+      />
+      <form>
+        <input
+          class="input-item"
+          type="text"
+          name=""
+          id="input-item"
+          placeholder="Digite a tarefa a ser realizada"
+        />
+        <button class="botao-item" id="adicionar-item" type="button">
+          Salvar item
+        </button>
+      </form>
+      <div class="container-lista">
+        <h2>Lista de Tarefas</h2>
+        <hr />
+
+        <ul id="lista-de-tarefas">
+          <p class="mensagem-lista-vazia">Não há nenhuma tarefa no momento</p>
+        </ul>
+      </div>
+    </main>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
